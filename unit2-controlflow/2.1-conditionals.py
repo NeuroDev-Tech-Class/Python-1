@@ -49,8 +49,8 @@ if myNum % 2 == 0:
 
 # You can also use "if" statements to check for the presence of a value in a
 # list or other sequence.
-fruits = ['apple', 'banana', 'orange']
-if 'apple' in fruits:
+fruits = ["apple", "banana", "orange"]
+if "apple" in fruits:
     print("You like apples!")
 # This code will print "You like apples!" because 'apple' is in the 'fruits'
 # list.
