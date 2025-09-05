@@ -52,36 +52,6 @@ print(f"My name is {name} and I am {age} years old.")
 # This will print each word on a new line.
 print("\nI \nlove \nPython")
 
-# This prints a string, filling in variable 'name' for %s.
-# Adding the 10 ensures the name is exactly 10 spaces wide.
-name = "Jill"
-print("hello %10s." % (name))
-
-# This prints two integers, left-padded with zeros if necessary to make them
-# two spaces each.
-i = 5
-j = 15
-print("%02d" % (i))
-print("%02d" % (j))
-
-# This prints the two integers on the same line without a return.
-i = 5
-j = 15
-print("%02d" % (i), end = "")
-print("%02d" % (j), end = "")
-
-# This prints a float with 2 decimal places, left-padded with zeros to make it
-# take up 6 spaces.
-x = 13.12345
-print("%06.2f" % (x))
-
-# This prints a string left justified in a field of 9 characters.
-# It suppresses the return at the end.
-name = "Jill"
-x = name.ljust(9," ")
-print(x, end="")
-print("Still on the same line.")
-
 # Some helpful String methods
 # upper() - Converts a string into upper case.
 name = "roo"
