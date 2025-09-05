@@ -4,7 +4,7 @@
 # These instructions are executed from top to bottom.
 
 # In some programming languages like Java and C++, indentation (spaces or tabs
-# at the beginning of a line) is mainly for readability and doesn't affect the 
+# at the beginning of a line) is mainly for readability and doesn't affect the
 # program. However, in Python, spacing and indentation do matter.
 
 # <--- Hash symbols are used to write comments, like this.
@@ -12,10 +12,10 @@
 # Comments can help explain what the code does or temporarily disable parts of
 # code for testing purposes.
 
-'''
+"""
 Triple quotes can also be used to write multi-line comments
 like this one.
-'''
+"""
 
 # Throughout this course, I'll use comments to explain programming concepts.
 

@@ -12,8 +12,8 @@ y = "Hello, world!"
 # the integer value 42 to x and the string value "Hello, world!" to y.
 # We can then use these variables in our program by referencing their names.
 
-print(x) # This will output the value of x, which is 42.
-print(y) # This will output the value of y, which is "Hello, world!"
+print(x)  # This will output the value of x, which is 42.
+print(y)  # This will output the value of y, which is "Hello, world!"
 # We can also reassign the values of variables by simply assigning a new
 # value to their names.
 
@@ -25,15 +25,15 @@ x = 10
 y = "Roo"
 # Now, the value of x is 10 and the value of y is "Roo".
 
-print(x) # This will output the new value of x, which is 10.
-print(y) # This will output the new value of y, which is "Roo".
+print(x)  # This will output the new value of x, which is 10.
+print(y)  # This will output the new value of y, which is "Roo".
 
 a = 2
 b = 3
 c = a + b
 # In this example, we assigned the integer value 2 to a, the integer value
 # 3 to b, and the result of the expression a + b (which is 5) to c.
-print(c) # This will output the value of c, which is 5.
+print(c)  # This will output the value of c, which is 5.
 
 # It's important to note that variable names are case-sensitive, meaning
 # that a and A are two different variables. Variable names must start with a

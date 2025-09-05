@@ -22,19 +22,19 @@ print(-2.0)
 # A string is a sequence of characters enclosed in quotes.
 # Examples:
 print("Hello, world!")
-print('Python is cool.') # Can be written with " " or ' '.
-print("1234") # Even though this looks like a number, it's not.
+print('Python is cool.')  # Can be written with " " or ' '.
+print("1234")  # Even though this looks like a number, it's not.
 
 # Boolean
 # A boolean is a logical value that is either True or False.
 # Examples:
-print(True) # Note that this is not a string because there are no quotes.
-print(False) # The word must be capitalized; Python is case-sensitive.
-print(2 > 3) # This will evaluate to False, because 2 is not greater than 3.
+print(True)  # Note that this is not a string because there are no quotes.
+print(False)  # The word must be capitalized; Python is case-sensitive.
+print(2 > 3)  # This will evaluate to False, because 2 is not greater than 3.
 
 # You can check something's data type by using the type() function.
 
-print(type(3)) # Instead of printing 3, this prints the TYPE of 3 which is an int.
+print(type(3))  # Instead of printing 3, this prints the TYPE of 3 which is an int.
 print(type(1.1))
 print(type("Yellow"))
 print(type(10 > 5))

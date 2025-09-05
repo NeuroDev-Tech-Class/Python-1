@@ -2,6 +2,7 @@
 
 # There are many ways to manipulate strings in helpful ways.
 
+
 # Concatenation - chaining two strings together
 # We define two string variables str1 and str2, and use the + operator to concatenate
 # them together, along with a space in between. The resulting string is stored in a new
@@ -10,6 +11,7 @@ str1 = "Hello"
 str2 = "world"
 str3 = str1 + " " + str2
 print(str3)
+
 
 # Slicing - extracting a portion of a string
 # We define a string variable str4 and use square brackets [] to slice the string into
@@ -25,26 +27,27 @@ print(str4[0:6])  # Prints "Python" (characters 0-5)
 print(str4[7:9])  # Prints "is" (characters 7-8)
 print(str4[10:17])  # Prints "awesome" (characters 10-16)
 
+
 # Formatting - insert values into a string
-# There are several ways to do this:
+# There are several ways to format strings.
+name = "Hayden"
+age = 29
+
 # The % operator uses special formatting codes to insert values into the string.
 # For example, %s is used to insert a string, %d for an integer, and %f for a float.
-name = "John"
-age = 25
 print("My name is %s and I am %d years old." % (name, age))
+
 # The str.format() method allows you to insert values into a string by positioning
 # them inside curly braces {}. You can also use positional and keyword arguments to
 # specify the values to be inserted.
-name = "John"
-age = 25
 print("My name is {} and I am {} years old.".format(name, age))
-# f-strings are a relatively new and more concise way to format strings. They are
+
+# f-strings are a newer and better way to format strings. They are
 # formatted string literals that start with the letter f before the opening quote.
 # You can insert variables and expressions directly into the string by wrapping them
 # in curly braces {}.
-name = "John"
-age = 25
 print(f"My name is {name} and I am {age} years old.")
+
 
 # Additional tricks for formatting strings:
 
